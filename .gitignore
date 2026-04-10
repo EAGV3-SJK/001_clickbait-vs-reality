@@ -1,0 +1,6 @@
+# API key — never commit this
+config.js
+
+# Screenshots not needed in repo
+*.png
+*.jpg

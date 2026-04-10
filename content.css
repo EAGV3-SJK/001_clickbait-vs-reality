@@ -1,0 +1,66 @@
+.cbvr-badge {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 2px 7px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  vertical-align: middle;
+  cursor: default;
+  white-space: nowrap;
+  line-height: 1.6;
+  transition: opacity 0.2s;
+  position: relative;
+  top: -1px;
+  text-decoration: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.cbvr-badge:hover::after {
+  content: attr(title);
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1a1a1a;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 5px 10px;
+  border-radius: 6px;
+  white-space: nowrap;
+  max-width: 260px;
+  white-space: normal;
+  text-align: center;
+  z-index: 999999;
+  pointer-events: none;
+  line-height: 1.4;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+
+.cbvr-scanning {
+  background: #e8e8e8;
+  color: #666;
+}
+
+.cbvr-honest {
+  background: #d4f5e2;
+  color: #1a6e3c;
+}
+
+.cbvr-misleading {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.cbvr-clickbait {
+  background: #fde8e8;
+  color: #b91c1c;
+}
+
+.cbvr-error {
+  background: #f3e8ff;
+  color: #7c3aed;
+}

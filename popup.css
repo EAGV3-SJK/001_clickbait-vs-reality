@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 260px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #fff;
+  color: #111;
+  padding: 16px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.logo {
+  font-size: 28px;
+  line-height: 1;
+}
+
+.title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #111;
+}
+
+.subtitle {
+  font-size: 11px;
+  color: #888;
+  margin-top: 1px;
+}
+
+.legend {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
+.pill {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 10px;
+}
+
+.pill.honest     { background: #d4f5e2; color: #1a6e3c; }
+.pill.misleading { background: #fff3cd; color: #856404; }
+.pill.clickbait  { background: #fde8e8; color: #b91c1c; }
+
+.scan-btn {
+  width: 100%;
+  padding: 9px;
+  background: #111;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.scan-btn:hover  { background: #333; }
+.scan-btn:active { background: #555; }
+.scan-btn:disabled { background: #999; cursor: not-allowed; }
+
+.status {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #555;
+  min-height: 18px;
+  text-align: center;
+}
+
+.status.error { color: #b91c1c; }

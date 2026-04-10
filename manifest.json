@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Clickbait vs Reality",
+  "version": "1.0",
+  "description": "AI-powered badge on every news headline — Honest, Misleading, or Clickbait",
+  "permissions": ["storage", "scripting", "activeTab"],
+  "host_permissions": ["https://api.anthropic.com/*", "<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Clickbait vs Reality"
+  }
+}
