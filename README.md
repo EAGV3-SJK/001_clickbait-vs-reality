@@ -6,8 +6,8 @@
 
 ## 📹 Demo Video
 
-<!-- Add your demo video link here -->
-> _Demo video coming soon_
+[Demo Video]https://www.youtube.com/watch?v=ZP-xT5XzqAY
+
 
 ---
 
