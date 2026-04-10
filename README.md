@@ -28,7 +28,12 @@ Hover over any badge to see **Claude's reason** in a tooltip.
 ## 🖼️ Screenshots
 
 ### BBC Homepage — Before & After
-> _(Add your screenshots here)_
+Before
+<img width="1397" height="892" alt="image" src="https://github.com/user-attachments/assets/5f9bd236-071d-4b70-9fe7-96d04d76e18a" />
+
+After
+
+<img width="1679" height="946" alt="image" src="https://github.com/user-attachments/assets/5e7db05b-2430-4764-ae58-aaa7c36dd880" />
 
 ---
 
