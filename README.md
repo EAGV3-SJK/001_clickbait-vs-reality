@@ -146,7 +146,7 @@ Claude Haiku is extremely cheap. Scanning 30 headlines costs roughly **$0.001** 
 
 ## 👤 Author
 
-**@sjkforce**
+**@jssunil**
 Built as part of a Chrome Extension development course assignment.
 
 ---
